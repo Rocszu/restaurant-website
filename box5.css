@@ -1,0 +1,254 @@
+.box5 {
+    box-shadow: -4px 116px 41px -113px rgba(0,0,0,0.56) inset;
+    -webkit-box-shadow: -4px 116px 41px -113px rgba(0,0,0,0.56) inset;
+    -moz-box-shadow: -4px 116px 41px -113px rgba(0,0,0,0.56) inset;
+    background-color: #39251D;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%; /* Changed to 100% for responsiveness */
+    height: auto; /* Changed to auto for dynamic height */
+    position: relative;
+}
+
+.heading img{
+    position: relative;
+    left: 20%;
+    margin-top: 30px;
+    width: 900px;
+}
+
+.steak-container {
+    display: flex;
+    flex-direction: column; /* Stack the steak entries vertically */
+    align-items: center; /* Center the items horizontally */
+    justify-content: center; /* Center the items vertically if there's extra space */
+    gap: 20px; /* Add some space between each steak entry */
+    padding: 40px; /* Added padding around the container */
+}
+
+.steaks {
+    position: relative;
+    display: flex; /* Enable flexbox for direct children, img and p */
+    align-items: center; /* Align the items vertically in the center */
+    justify-content: flex-end; /* Align the items to the start of the container */
+    gap: 20px; /* Add some space between image and text */
+    background-color: #564138; /* Optional: added background color for better readability */
+    border-radius: 8px; /* Optional: add rounded corners */
+    padding: 20px; /* Padding inside each steak entry */
+    width: 80%; /* Set a specific width */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Optional: add shadow for depth */
+}
+
+.steaks img {
+    width: 220px; /* Adjust as necessary */
+    
+}
+
+.steak-description{
+    margin-top: 45px;
+}
+
+.steaks p {
+    display: inline-block;
+    color: white;
+    font-size: 22px;
+    margin: 30px; 
+    font-family: roboto;
+}
+
+.steaks h1{
+    margin-top: 43px;
+    margin-left: 30px;
+    position: absolute;
+    top:0;  
+    left: 20%;
+    color: #FFC700;
+    padding: 20px;
+    
+}
+
+.steak3{
+    margin-bottom: 90px;
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(fonts/Roboto-Thin.ttf);
+
+    font-family: Open-Sauce;
+    src: url(fonts/OpenSauceSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: lovelo;
+    src: url(Lovelo-Black.ttf);
+}
+
+.box6{
+   
+    background-image: url(Prime.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 800px;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.text-end{
+    position: relative;
+    font-size: 38px;
+    color: white;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text-end img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform-origin: bottom;
+    transition: ease-in;
+}
+
+.text-content{
+    position: relative;
+    top: 0;
+}
+
+.t1{
+    position: relative;
+    top: 0;
+}
+
+.text-end p{
+    font-family: Open-Sauce;
+    font-size: 50px;
+    text-align: center;
+}
+
+.text-end h1{
+    font-family: lovelo;
+}
+
+.box7{
+    background-color: #241B18;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    height: 390px;
+    width: 100%;
+
+
+}
+
+.box7-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box7-container img{
+    position: absolute;
+    top:1%;
+    width: 145px;
+    right: 50%;
+    left: 45%;
+}
+
+.box7-container p{
+    font-family: Fontz;
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 55%;
+}
+
+.buttonz {
+    padding: 21px 20px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.buttonz a {
+    font-family: Fontz;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 19px;
+    font-size: 20px;
+    margin-top: 160px; /* Adjust the margin-top value as needed */
+    position: relative; /* Added relative positioning */
+}
+
+.buttonz a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: .5px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.buttonz a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+/* CSS for the white icon container */
+.white-icon-container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin: 0;
+    right: 40.5%;
+    bottom: 19%;
+}
+
+.white-icons {
+    display: flex;
+    margin: 12px;
+}
+
+.white-icons img {
+    width: 50px; /* Set a fixed width for all icons */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.copy{
+    position: absolute;
+    
+    bottom: 0;
+    left: 32%;
+    padding: 20px;
+    width: 500px;
+    
+}
+
+.copy-content p{
+    text-align: center;
+    color: white;
+    font-family: Fontz;
+}

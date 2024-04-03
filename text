@@ -1,0 +1,52 @@
+.box1{
+    position: relative;
+    background-color: black;
+    padding: 100px;
+}
+
+.img-container{
+    position: relative;
+    background-color: white;
+    padding: 1px 20px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.images{
+    margin: 5px;
+    padding:0;
+    position: relative; /* Make sure this is relative to position the text absolutely within it */
+    
+}
+
+.images img{
+    width: 200px;
+    transition: filter .5s;
+}
+
+/* Use this to apply the hover effect to the image */
+.images:hover img{
+    filter: brightness(77%) blur(1px);
+}
+
+.text{
+    position: absolute;
+    opacity: 0;
+    color: rgb(0, 0, 0);
+    /* Center the text */
+    top: 50%;
+    left: 50%;
+    /* Transform property to center the div */
+    transform: translate(-50%, -50%);
+    /* Set pointer-events to none to pass the hover to the img below */
+    pointer-events: none;
+    transition: opacity .5s;
+}
+
+/* Apply the hover effect to the text div within each image container */
+.images:hover .text {
+    opacity: 1;
+}
+

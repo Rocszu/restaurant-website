@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box3{
+    background-color: #F4EEEE;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 40px 10px;
+    position: relative;
+    margin: 0;
+    
+    
+}
+
+.border-container{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    border-top: solid #5F504E 3px;
+    border-bottom: solid #5F504E 3px;
+    border-style: dashed;
+    border-right: none;
+    border-left: none;
+
+}
+
+.borders{
+    
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid #633C2B 2px;
+    margin: 20px;
+    margin: 70px 20px;
+    padding: 140px 210px;
+    border-radius: 20px;
+
+}
+
+.borders img{
+    top: 5%;
+    
+    width: 108px;
+    position: absolute;
+
+}
+
+.border3 img{
+    width: 85px;
+    top: 4%;
+}
+
+.borders p{
+    /* POSITION */
+    position: absolute;
+    top: 29%;
+    margin: 0;
+    /* FONTS */
+    font-family: rad;
+    font-size: 25px;
+    color:  #633C2B;
+    /* PADDING */
+    padding: 0px 50px;
+    padding-bottom: 10px;
+    border-bottom: solid #633C2B 4px;
+}
+
+@font-face{
+
+    font-family: koll-b;
+    src: url(fonts/koll-b.ttf);
+
+    font-family: koll;
+    src: url(fonts/koll.ttf);
+}
+
+@font-face{
+    font-family: rad;
+    src: url(fonts/radnika.otf);
+}
+
+.content{
+    /* POSITION AND PADDING */
+    position: absolute;
+    margin: 0;
+    bottom: 25%;
+    text-align: justify;
+    padding: 1px 30px;
+    /* FONT */
+    font-size: 23px;
+    font-family: koll;
+    color: #633C2B;
+}
+
+.content3{
+    top:50%
+}
+.content2{
+    top:50%
+}
+
+.box4{
+    box-shadow: -4px 116px 41px -113px rgba(0,0,0,0.56) inset;
+    -webkit-box-shadow: -4px 116px 41px -113px rgba(0,0,0,0.56) inset;
+    -moz-box-shadow: -4px 116px 41px -113px rgba(0,0,0,0.56) inset;
+
+    background-image: url('contact.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    padding: 90px;
+
+   
+}
+
+.contact-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.icons img{
+    top: 0;
+    width: 100px;
+    margin: 20px;
+    position: relative;
+}
+
+.fb img{
+    width: 94px;
+}
+
+
